@@ -29,6 +29,9 @@ public class User {
 	@Column(name = "first_name", nullable = false)
 	private String firstname;
 	
+	@Column(name = "last_name", nullable = false)
+	private String lastname;
+	
 	
 
 }
