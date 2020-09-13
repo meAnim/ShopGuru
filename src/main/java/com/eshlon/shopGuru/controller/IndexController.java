@@ -15,10 +15,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.eshlon.secureapp.model.Role;
-import com.eshlon.secureapp.model.User;
-import com.eshlon.secureapp.repo.RoleRepository;
-import com.eshlon.secureapp.repo.UserRepository;
+import com.eshlon.shopGuru.model.Role;
+import com.eshlon.shopGuru.model.User;
+import com.eshlon.shopGuru.repo.UserRepository;
 
 @Controller
 public class IndexController {
