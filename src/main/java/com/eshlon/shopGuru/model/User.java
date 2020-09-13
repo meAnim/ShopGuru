@@ -32,6 +32,18 @@ public class User {
 	@Column(name = "last_name", nullable = false)
 	private String lastname;
 	
+	@Column(name = "email", nullable = false)
+	private String email;
 	
+	@Column(name = "password", nullable = false)
+	private String password;
+	
+	@Transient
+	private String vPassword;
+
+	@Column(name = "status", nullable = false)
+	private String status;
+
+
 
 }
