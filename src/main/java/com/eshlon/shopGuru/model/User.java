@@ -26,6 +26,9 @@ public class User {
 	@Column(name = "auth_user_id")
 	private int id;
 
+	@Column(name = "first_name", nullable = false)
+	private String firstname;
+	
 	
 
 }
