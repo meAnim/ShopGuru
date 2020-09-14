@@ -17,6 +17,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.eshlon.shopGuru.model.Role;
 import com.eshlon.shopGuru.model.User;
+import com.eshlon.shopGuru.repo.RoleRepository;
 import com.eshlon.shopGuru.repo.UserRepository;
 
 @Controller
