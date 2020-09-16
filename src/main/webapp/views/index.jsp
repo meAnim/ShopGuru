@@ -6,7 +6,8 @@
 	<head>
 		<meta charset="ISO-8859-1">
 		<style type="text/css">
-			
+			<%@include file="../css/bootstrap/bootstrap.min.css" %>
+		    
 		</style>
 		<title>ShopGuru App</title>
 	</head>
