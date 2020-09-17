@@ -42,3 +42,12 @@
 		      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
 		    </div>
 		  </div>
+		  </main>
+		
+		<footer class="container">
+		  <p>&copy; 2017-2019</p>
+		</footer>
+		<script>
+		<%@include file="../js/bootsrap/bootstrap.js" %>
+	</script>
+	</body>
