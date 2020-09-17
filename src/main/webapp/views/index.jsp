@@ -24,6 +24,6 @@
 		    <form class="form-inline my-2 my-lg-0">
 		      <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
 		      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
-		      <a class="nav-link" href="/BakeryBoss/register">
+		      <a class="nav-link" href="/ShopGuru/register">
 			      <button class="btn btn-outline-success my-2 my-sm-0" type="button">Sign up</button>
 			  </a>
