@@ -27,6 +27,7 @@
 		      <a class="nav-link" href="/ShopGuru/register">
 			      <button class="btn btn-outline-success my-2 my-sm-0" type="button">Sign up</button>
 			  </a>
-			  <a class="nav-link" href="/BakeryBoss/login">
+			  <a class="nav-link" href="/ShopGuru/login">
 		      	<button class="btn btn-outline-primary my-2 my-sm-0" type="button">Log in</button>
 		      </a>
+		      
