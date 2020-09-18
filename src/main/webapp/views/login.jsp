@@ -33,4 +33,7 @@
 		  <div class="text-center mb-4">
 		    <h1 class="h3 mb-3 font-weight-normal">Log In</h1>
 		  </div>
-		  
+		  <div class="form-label-group inputMargins">
+		  	<!--<label for="inputEmail">Email address</label>-->
+		    <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" required autofocus>  
+		  </div>
