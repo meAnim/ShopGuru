@@ -43,3 +43,8 @@
 		  </div>
 		  <button class="btn btn-lg btn-primary btn-block inputMargins" type="submit">Submit</button>
 		  <p class="mt-5 mb-3 text-muted text-center">&copy; 2017-2019</p>
+		  </form>
+			<script>
+				<%@include file="../js/bootsrap/bootstrap.js" %>
+			</script>
+		  
