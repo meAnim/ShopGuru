@@ -28,7 +28,7 @@
 		    </form>
 		  </div>
 		</nav>
-		<form class="form-signin" style="width:300px; margin:100px auto;" action="/BakeryBoss/login" method="post" >
+		<form class="form-signin" style="width:300px; margin:100px auto;" action="/ShopGuru/login" method="post" >
 		  <b style="color:red;">${SPRING_SECURITY_LAST_EXCEPTION.message}</b> 
 		  <div class="text-center mb-4">
 		    <h1 class="h3 mb-3 font-weight-normal">Log In</h1>
