@@ -22,7 +22,7 @@
 		      
 		    </ul>
 		    <form class="form-inline my-2 my-lg-0">
-		    <a class="nav-link" href="/BakeryBoss/register">
+		    <a class="nav-link" href="/ShopGuru/register">
 			      <button class="btn btn-outline-success my-2 my-sm-0" type="button">Sign up</button>
 			  </a>
 		    </form>
