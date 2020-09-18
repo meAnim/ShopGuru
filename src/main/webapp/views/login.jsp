@@ -9,5 +9,5 @@
 		    <%@include file="../css/main.css" %> 
 		</style>
 		
-		<title>BakeryBoss</title>
+		<title>ShopGuru App</title>
 	</head>
