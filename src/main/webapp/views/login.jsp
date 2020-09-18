@@ -47,4 +47,5 @@
 			<script>
 				<%@include file="../js/bootsrap/bootstrap.js" %>
 			</script>
-		  
+		  </body>
+</html>
