@@ -37,3 +37,7 @@
 		  	<!--<label for="inputEmail">Email address</label>-->
 		    <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" required autofocus>  
 		  </div>
+		  <div class="form-label-group inputMargins">
+		  	<!-- <label for="password">Password</label> -->
+		    <input type="password" name="password" id="password"   class="form-control" placeholder="Password" required autofocus> 
+		  </div>
