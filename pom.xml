@@ -11,9 +11,8 @@
 	<groupId>com.eshlon</groupId>
 	<artifactId>shopGuru</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 	<name>shopGuru</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Shop Management project for Spring Boot</description>
 
 	<properties>
 		<java.version>11</java.version>
@@ -37,11 +36,6 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
