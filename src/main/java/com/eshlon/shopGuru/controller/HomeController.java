@@ -1,5 +1,10 @@
 package com.eshlon.shopGuru.controller;
 
-public class HomeController {
+import org.springframework.stereotype.Controller;
 
+@Controller
+public class HomeController {
+	public String homeController() {
+		return "Hello world";
+	}
 }
