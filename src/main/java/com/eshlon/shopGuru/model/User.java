@@ -8,6 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 
 import com.eshlon.shopGuru.model.Role;
 
@@ -27,7 +28,11 @@ public class User {
 	
 	@Column(name = "email", nullable = false)
 	private String email;
+	
+	@Column(name = "password", nullable = false)
 	private String password;
+	
+	@Transient
 	private String vPassword;
 	private String status;
 	private List<Role> roles;
