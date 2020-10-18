@@ -19,6 +19,9 @@ public class User {
 	private String status;
 	private List<Role> roles;
 	
+	public User() {
+		
+	}
 	
 	public User(String firstname, String lastname, String email, String password, String status, List<Role> roles) {
 		super();
