@@ -21,7 +21,11 @@ public class User {
 	
 	@Column(name = "first_name", nullable = false)
 	private String firstname;
+	
+	@Column(name = "last_name", nullable = false)
 	private String lastname;
+	
+	@Column(name = "email", nullable = false)
 	private String email;
 	private String password;
 	private String vPassword;
