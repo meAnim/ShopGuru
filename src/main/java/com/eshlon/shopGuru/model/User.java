@@ -20,6 +20,16 @@ public class User {
 	private List<Role> roles;
 	
 	
+	public User(String firstname, String lastname, String email, String password, String status, List<Role> roles) {
+		super();
+		this.firstname = firstname;
+		this.lastname = lastname;
+		this.email = email;
+		this.password = password;
+		this.status = status;
+		this.roles = roles;
+	}
+	
 	public int getId() {
 		return id;
 	}
