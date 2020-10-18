@@ -2,7 +2,11 @@ package com.eshlon.shopGuru.model;
 
 import java.util.List;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 import com.eshlon.shopGuru.model.Role;
@@ -10,6 +14,9 @@ import com.eshlon.shopGuru.model.Role;
 @Entity
 @Table(name = "auth_user")
 public class User {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "auth_user_id")
 	private int id;
 	private String firstname;
 	private String lastname;
