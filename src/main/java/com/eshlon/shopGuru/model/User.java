@@ -18,6 +18,8 @@ public class User {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "auth_user_id")
 	private int id;
+	
+	@Column(name = "first_name", nullable = false)
 	private String firstname;
 	private String lastname;
 	private String email;
