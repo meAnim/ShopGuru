@@ -42,4 +42,10 @@ public class MyUserDetails implements UserDetails{
 	public String getUsername() {
 		return this.user.getEmail();
 	}
+	
+	@Override
+	public boolean isAccountNonExpired() {
+		// TODO Auto-generated method stub
+		return true;
+	}
 }
