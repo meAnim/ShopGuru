@@ -32,6 +32,11 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter{
 		// URLs matching for access rights
 		.antMatchers("/","/signup", "/register", "/signUpuser", "/jwtAuthentication").permitAll()
 		.antMatchers("/*.user").hasAnyAuthority("SUPER_USER", "ADMIN_USER", "SITE_USER")
-		
+		.antMatchers("/*.admin").hasAnyAuthority("SUPER_USER", "ADMIN_USER")
+		.antMatchers("/**").hasAuthority("SUPER_USER")
+		.anyRequest().authenticated()
+		.and()
+		// form login
+		.formLogin();
 	}
 }
