@@ -1,5 +1,7 @@
 package com.eshlon.shopGuru.services;
 
-public class MyUserDetailsService {
+import org.springframework.security.core.userdetails.UserDetailsService;
+
+public class MyUserDetailsService implements UserDetailsService{
 
 }
