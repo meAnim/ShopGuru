@@ -37,4 +37,9 @@ public class MyUserDetails implements UserDetails{
 	public String getPassword() {
 		return this.user.getPassword();
 	}
+	
+	@Override
+	public String getUsername() {
+		return this.user.getEmail();
+	}
 }
