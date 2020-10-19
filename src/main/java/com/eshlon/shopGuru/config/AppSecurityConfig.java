@@ -28,6 +28,9 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter{
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 
-			
+		http.authorizeRequests()
+		// URLs matching for access rights
+		.antMatchers("/","/signup", "/register", "/signUpuser", "/jwtAuthentication").permitAll()
+		
 	}
 }
