@@ -31,6 +31,7 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter{
 		http.authorizeRequests()
 		// URLs matching for access rights
 		.antMatchers("/","/signup", "/register", "/signUpuser", "/jwtAuthentication").permitAll()
+		.antMatchers("/*.user").hasAnyAuthority("SUPER_USER", "ADMIN_USER", "SITE_USER")
 		
 	}
 }
