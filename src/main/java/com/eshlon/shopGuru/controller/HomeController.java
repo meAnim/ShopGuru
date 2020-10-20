@@ -6,8 +6,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HomeController {  
+	
 	@RequestMapping("/")
 	public String home() {
-		return "Hello world!";
+		return "You are welcome";
+	}
+	
+	@RequestMapping("/dashboard.user")
+	public String dashboard() {
+		return "You are on the dashboard ";
 	}
 }
